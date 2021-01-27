@@ -17,6 +17,7 @@
 ```cmd
 git clone https://github.com/apsampaio/linked-backend.git
 cd linked-backend
+docker run --name linked_postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
 yarn
 yarn dev
 ```

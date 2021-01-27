@@ -5,6 +5,8 @@ import express, { Request, Response, NextFunction } from "express";
 import cors from "cors";
 import { errors } from "celebrate";
 
+import "./shared/database";
+
 import AppError from "@shared/errors/AppError";
 
 const app = express();
