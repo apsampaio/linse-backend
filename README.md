@@ -27,9 +27,9 @@ yarn dev
 - [✅ NodeJS](https://nodejs.org/en/)
 - [📘 TypeScript](https://www.typescriptlang.org/)
 - [🎲 PostgreSQL](https://www.postgresql.org/)
-- [💾 TypeORM](https://www.postgresql.org/)
-- [🛣 Express](https://www.postgresql.org/)
-- [🎉 celebrate](https://www.postgresql.org/)
-- [📦 tsyringe](https://www.postgresql.org/)
+- [💾 TypeORM](https://typeorm.io/)
+- [🛣 Express](https://expressjs.com/pt-br/)
+- [🎉 celebrate](https://github.com/arb/celebrate)
+- [📦 tsyringe](https://github.com/microsoft/tsyringe)
 
 Made with ❤ by Andre Sampaio 👋
