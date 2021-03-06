@@ -27,6 +27,9 @@ class User {
   cpf: string;
 
   @Column()
+  cep: string;
+
+  @Column()
   avatar: string;
 
   @CreateDateColumn()

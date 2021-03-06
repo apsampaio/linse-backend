@@ -5,8 +5,7 @@ import express, { Request, Response, NextFunction } from "express";
 import cors from "cors";
 import { errors } from "celebrate";
 
-import "./shared/database";
-
+import "@shared/database";
 import AppError from "@shared/errors/AppError";
 
 const app = express();
@@ -36,5 +35,5 @@ app.use((err: Error, req: Request, res: Response, _next: NextFunction) => {
 });
 
 app.listen(3333, () => {
-  "Listening on port 3333";
+  console.log("== Server Listening on Port 3333 ==");
 });

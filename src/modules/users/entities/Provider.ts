@@ -12,7 +12,7 @@ class Provider {
   id: string;
 
   @Column()
-  role: string;
+  career: string;
 
   @Column()
   average_value: number;
