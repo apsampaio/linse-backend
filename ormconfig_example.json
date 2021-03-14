@@ -1,16 +1,9 @@
-[
-    {
-      "type": "postgres",
-      "host": "localhost",
-      "port": 5432,
-      "username": "",
-      "password": "",
-      "database": "",
-      "entities": ["./src/modules/*/entities/*.ts"],
-      "migrations": ["./src/shared/database/migrations/*.ts"],
-      "cli": {
-        "migrationsDir": "./src/shared/database/migrations/*.ts"
-      }
-    }
-  ]
-  
+{
+  "name": "default",
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "database": "linse_mongo",
+  "useUnifiedTopology": true,
+  "entities": ["./src/modules/*/schemas/*.ts"]
+}

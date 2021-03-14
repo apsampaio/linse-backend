@@ -17,7 +17,7 @@
 ```cmd
 git clone https://github.com/apsampaio/linked-backend.git
 cd linked-backend
-docker run --name linse_postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
+docker run --name linse_mongo -p 27017:27017 -d -t mongo
 yarn
 yarn dev
 ```
@@ -26,7 +26,7 @@ yarn dev
 
 - [✅ NodeJS](https://nodejs.org/en/)
 - [📘 TypeScript](https://www.typescriptlang.org/)
-- [🎲 PostgreSQL](https://www.postgresql.org/)
+- [🎲 MongoDB](https://www.mongodb.com/3)
 - [💾 TypeORM](https://typeorm.io/)
 - [🛣 Express](https://expressjs.com/pt-br/)
 - [🎉 celebrate](https://github.com/arb/celebrate)
